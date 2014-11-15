@@ -1,0 +1,20 @@
+﻿Ercü Mercü	44	160	99	39	Şişmansınız
+
+Ayla Yağmur	22	171	55	19	Zayıfsınız
+
+Aslan Serçe	18	180	99	31	Şişmansınız
+
+Karga Tilki	47	170	120	42	Ağır Şişmansınız
+
+Ercüment Baydar	55	177	80	26	Kilolusunuz
+
+Saim Selahattin	38	171	60	21	Kilonuz Normal
+
+Ramazan Şaban	23	180	99	31	Şişmansınız
+
+Weli Sami	44	188	90	25	Kilolusunuz
+
+Armağan Arma	34	177	82	26	Kilolusunuz
+				0	Ağır Şişmansınız
+				0	Ağır Şişmansınız
+Ercü Tufan	33	178	55	17	Zayıfsınız

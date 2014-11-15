@@ -1,0 +1,11 @@
+enes e 2 200 30003900
+damla e 1 100 1000 1150
+cem e 2 200 6000 7800
+cem e 2 200 6000 7800
+deneme e 2 168 6000 6600
+deneme e 2 168 6000 7800
+deneme e 2 168 6000 7800
+denemeee e 2 170 5000
+denemeee e 2 170 5000 6500
+ertugrul e 2 150 3000 3750
+ertugrul e 1 150 3000 3600

@@ -1,0 +1,107 @@
+﻿<html> <head> 
+<title>Form Sayfası,</title> 
+<script language="JavaScript"> 
+function gir() 
+{ 
+bilgi1.innerHTML=document.forms.kimlik.veri1.value 
+bilgi2.innerHTML=document.forms.kimlik.veri2.value 
+bilgi3.innerHTML=document.forms.kimlik.veri3.value 
+bilgi4.innerHTML=document.forms.kimlik.veri4.value 
+} 
+</script> 
+</head> 
+<body>
+ 
+<form name="kimlik"> 
+<table cellpadding="5" cellspacing="0" border="1"> 
+<tr><td width="100">Adınız Soyadınız:<td><input name="veri1"></td></tr>
+<tr><td>Yaşınız&nbsp;&nbsp;:</td><td> <input name="veri2"></td></tr> 
+<tr><td>Boyunuz&nbsp;&nbsp;:</td><td><input name="veri3"></td></tr> 
+<tr><td>Kilonuz&nbsp;:</td><td><input name="veri4"></td></tr> 
+<tr><td>
+<input type="button" value="Bilgileri Tabloya Gir" onclick="gir()">
+</td></tr>  
+</table>
+<br>
+
+<h2>Kitle İndeksi Değerlendirme Listesi
+<table border='2'><tr>
+<td align='center' bgcolor='#669966' width='150'>ADI SOYADI</td>
+<td align='center' bgcolor='#669966' width='100'>YAS</td>
+<td align='center' bgcolor='#669966' width='100'>BOY</td>
+<td align='center' bgcolor='#669966' width='100'>KİLO</td>
+</tr>
+<tr>
+<td align='left' bgcolor='#ddc488' width='150' id="bilgi1"></td>	
+<td align='center' bgcolor='#ddc488' width='150' id="bilgi2"></td>
+<td align='center' bgcolor='#ddc488' width='100' id="bilgi3"></td>
+<td align='center' bgcolor='#ddc488' width='100' id="bilgi4"></td>
+</tr>
+</table>
+</form> 
+
+<!--
+<br>
+<table cellpadding="5" cellspacing="0" border="1"> 
+<tr><td width="100">Ad Soyad:</td><td id="bilgi1" width="300"> </td></tr> 
+<tr><td>Yaşı:</td><td id="bilgi2"> </td></tr> 
+<tr><td>Boy:</td><td id="bilgi3"> </td></tr> 
+<tr><td>Kilo:</td><td id="bilgi4"> </td></tr> 
+</table> 
+-->
+
+<!--
+<script language="JavaScript">		
+say=1;
+	while(say<=1)
+{	
+document.write("<h2>Kitle İndeksi Değerlendirme Listesi</h2>");
+document.write("<table border='2'><tr>");
+document.write("<td align='center' bgcolor='#669966' width='150'>ADI SOYADI</td>");
+document.write("<td align='center' bgcolor='#669966' width='100'>YAS</td>");
+document.write("<td align='center' bgcolor='#669966' width='100'>BOY</td>");
+document.write("<td align='center' bgcolor='#669966' width='100'>KİLO</td>");
+document.write("<td align='center' bgcolor='#669966' width='100'>INDEKS</td>");
+document.write("<td align='center' bgcolor='#669966' width='150'>DURUM</td>");
+document.write("</tr>");
+document.write("<tr>");
+	
+	var as = bilgi1.toString();
+	var yas= parseInt(bilgi2); 
+	var boy= parseInt(bilgi3);
+	var kilo=parseInt(bilgi4);
+	kitle=kilo/((boy/100)*(boy/100));
+	var vki=parseInt(kitle);
+ if(vki>0 && vki<=20)
+ {
+ durum= 'Zayıfsınız';
+ }
+else if(vki<25 && vki>20)
+ {
+ durum='Kilonuz Normal'; 
+ }
+else if(vki<30 && vki>=25)
+ {
+ durum= 'Kilolusunuz';
+ }
+else if(vki<40 && vki>=30)
+ { 
+ durum='Şişmansınız';
+ }
+else 
+	{
+ durum= 'Ağır Şişmansınız';
+	}
+document.write("<td align='left' bgcolor='#ddc488' width='150'>"+as+"</td>");	
+document.write("<td align='center' bgcolor='#ddc488' width='150'>"+yas+"</td>");
+document.write("<td align='center' bgcolor='#ddc488' width='100'>"+boy+"</td>");
+document.write("<td align='center' bgcolor='#ddc488' width='100'>"+kilo+"</td>");
+document.write("<td align='center' bgcolor='#ddc488' width='100'>"+vki+"</td>");
+document.write("<td align='center' bgcolor='#ddc488' width='150'>"+durum+"</td>");
+document.write("</tr>");
+		   say++;			}
+document.write("</table>");
+ </script>
+-->
+</body> 
+</html>

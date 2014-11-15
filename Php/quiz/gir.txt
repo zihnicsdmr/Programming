@@ -1,0 +1,5 @@
+AliVeli e 2 60 1500
+CerenAskýn  k 3 115 1200
+zihniCosar e 1 100 2000
+SedefSudurur  k 87 3000
+DamlaBirsel k 55 1000

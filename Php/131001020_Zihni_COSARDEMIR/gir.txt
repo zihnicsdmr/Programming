@@ -1,0 +1,32 @@
+eceGece e 1 160 1000
+CerenAskýn  k 1 150 1400
+zihniCosar e 1 200 2800
+SedefSudurur k 3 118 3000
+DamlaBirsel k 2 135 1000
+sedef k 3 140 2500
+
+zihni e 0 100 3000
+
+zihni e 1 100 3000
+
+sedef e 3 200 5000
+
+enes e 2 200 3000
+
+damla e 1 100 1000
+
+cem e 2 200 6000
+
+cem e 2 200 6000
+
+deneme e 2 168 6000
+
+deneme e 2 168 6000
+
+deneme e 2 168 6000
+
+denemeee e 2 170 5000
+
+denemeee e 2 170 5000
+ertugrul e 2 150 3000
+ertugrul e 1 150 3000

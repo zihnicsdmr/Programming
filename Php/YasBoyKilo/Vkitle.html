@@ -1,0 +1,57 @@
+﻿<html><head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+</head><body bgcolor="#ddc488">
+<script language="JavaScript">
+document.write("<h2>Kitle İndeksi Değerlendirme Listesi</h2>");
+document.write("<table border='2'><tr>");
+document.write("<td align='center' bgcolor='#669966' width='150'>ADI SOYADI</td>");
+document.write("<td align='center' bgcolor='#669966' width='100'>YAS</td>");
+document.write("<td align='center' bgcolor='#669966' width='100'>BOY</td>");
+document.write("<td align='center' bgcolor='#669966' width='100'>KİLO</td>");
+document.write("<td align='center' bgcolor='#669966' width='100'>INDEKS</td>");
+document.write("<td align='center' bgcolor='#669966' width='150'>DURUM</td>");
+document.write("</tr>");
+document.write("<tr>");
+	say=1;
+	while(say<=3)			{
+	var adsoy=prompt("Ad ve Soyad girin.","");
+	var yas=prompt("Yas girin.","");
+	var boy=prompt("Boy girin.","");
+	var kilo=prompt("Kilo girin.","");
+	var as = adsoy.toString();
+	var yas= parseInt(yas); 
+	var boy= parseInt(boy);
+	var kilo=parseInt(kilo);
+	kitle=kilo/((boy/100)*(boy/100));
+	var vki=parseInt(kitle);
+ if(vki>0 && vki<=20)
+ {
+ durum= 'Zayıfsınız';
+ }
+else if(vki<25 && vki>20)
+ {
+ durum='Kilonuz Normal'; 
+ }
+else if(vki<30 && vki>=25)
+ {
+ durum= 'Kilolusunuz';
+ }
+else if(vki<40 && vki>=30)
+ { 
+ durum='Şişmansınız';
+ }
+else 
+	{
+ durum= 'Ağır Şişmansınız';
+	}
+document.write("<td align='left' bgcolor='#ddc488' width='150'>"+as+"</td>");	
+document.write("<td align='center' bgcolor='#ddc488' width='150'>"+yas+"</td>");
+document.write("<td align='center' bgcolor='#ddc488' width='100'>"+boy+"</td>");
+document.write("<td align='center' bgcolor='#ddc488' width='100'>"+kilo+"</td>");
+document.write("<td align='center' bgcolor='#ddc488' width='100'>"+vki+"</td>");
+document.write("<td align='center' bgcolor='#ddc488' width='150'>"+durum+"</td>");
+document.write("</tr>");
+		   say++;			}
+document.write("</table>");
+ </script>
+ </body> </html>
