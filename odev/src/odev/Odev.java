@@ -18,4 +18,8 @@ public class Odev {
         // TODO code application logic here
     }
     
+    int a=3;
+    
+    System.out.println(a);
+    
 }
