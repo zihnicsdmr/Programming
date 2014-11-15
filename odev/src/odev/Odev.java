@@ -17,18 +17,18 @@ public class Odev {
     public static void main(String[] args) 
     {
         Scanner tara = new Scanner(System.in);
-        int harf = 0;
+        String harf;
         
         System.out.println("Bir harf giriniz: ");
-        harf = tara.nextInt();
+        harf = tara.nextLine();
         
-            while(harf==10) {
+            while(!harf.equals('q')) {
                  System.out.println("Bir Harf giriniz.");
-                    harf=tara.nextInt();
+                    harf=tara.nextLine();
                 
-                if(harf!=10){
-                    System.out.println("Bir Harf giriniz.");
-                    harf=tara.nextInt();
+                if(harf.equals('q')){
+                    System.out.println("Programdan ciktiniz.");
+                    
              }
                  }
     
